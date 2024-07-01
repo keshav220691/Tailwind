@@ -1,0 +1,14 @@
+{
+  "name": "todesktop",
+  "version": "1.0.0",
+  "description": "project using tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./src/output.css --watch"
+  },
+  "author": "keshav sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
