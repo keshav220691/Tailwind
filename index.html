@@ -43,45 +43,47 @@
         <i class="fa-solid fa-bars text-gray-600 flex justify-center"></i>
       </button>
 
-      <div id="nav" class="md:hidden fixed bg-white inset-0 hidden p-3">
-        <div id="navbar" class="flex justify-between">
-          <a href="#" id="brand" class="flex items-center gap-2">
-            <img
-              class="object-cover max-w-12 max-h-12"
-              src="./assets/asset 0.png"
-              alt="logo"
-            />
-            <span class="text-lg font-medium font-display">ToDesktop</span>
-          </a>
-          <button class="p-2 md:hidden" onclick="handleMenu()">
-            <i class="fa-solid fa-xmark text-gray-600 flex justify-center"></i>
+      <div id="nav" class="md:hidden fixed inset-0 hidden">
+        <div class="bg-white p-3 rounded-b-md">
+          <div id="navbar" class=" flex justify-between">
+            <a href="#" id="brand" class="flex items-center gap-2">
+              <img
+                class="object-cover max-w-12 max-h-12"
+                src="./assets/asset 0.png"
+                alt="logo"
+              />
+              <span class="text-lg font-medium font-display">ToDesktop</span>
+            </a>
+            <button class="p-2 md:hidden" onclick="handleMenu()">
+              <i class="fa-solid fa-xmark text-gray-600 flex justify-center"></i>
+            </button>
+          </div>
+          <div class="bg-white mt-6 flex flex-col">
+            <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
+              >Pricing</a
+            >
+            <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
+              >Docs</a
+            >
+            <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
+              >changeLogs</a
+            >
+            <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
+              >Blogs</a
+            >
+            <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
+              >Login</a
+            >
+          </div>
+          <div class="mt-6 h-0.5 bg-gray-300"></div>
+          <button
+            class="mt-6 p-3 w-full flex gap-2 items-center rounded-lg hover:bg-gray-200"
+          >
+            <img src="./assets/asset 1.svg" alt="image1" />
+            <span>Electron Developer </span>
+            <i class="fa-solid fa-arrow-right text-gray-400"></i>
           </button>
         </div>
-        <div class="mt-6 flex flex-col">
-          <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
-            >Pricing</a
-          >
-          <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
-            >Docs</a
-          >
-          <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
-            >changeLogs</a
-          >
-          <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
-            >Blogs</a
-          >
-          <a href="#" class="font-medium hover:bg-gray-200 rounded-lg p-3"
-            >Login</a
-          >
-        </div>
-        <div class="mt-6 h-0.5 bg-gray-300"></div>
-        <button
-          class="mt-6 p-3 w-full flex gap-2 items-center rounded-lg hover:bg-gray-200"
-        >
-          <img src="./assets/asset 1.svg" alt="image1" />
-          <span>Electron Developer </span>
-          <i class="fa-solid fa-arrow-right text-gray-400"></i>
-        </button>
       </div>
     </nav>
     <!-- Main  -->

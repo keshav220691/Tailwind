@@ -1,7 +1,7 @@
-const navbar = document.querySelector("#nav");
+const nav = document.querySelector("#nav");
 
 function handleMenu() {
-  navbar.classList.toggle("hidden");
+  nav.classList.toggle("hidden");
 }
 
 const initialTranslateLTR = -48 * 4;
